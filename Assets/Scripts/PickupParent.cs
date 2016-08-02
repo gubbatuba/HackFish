@@ -5,11 +5,9 @@ using System.Collections;
 [RequireComponent(typeof(SteamVR_TrackedObject))]
 public class PickupParent : MonoBehaviour {
 
-    public Rigidbody rigidBodyAttachPoint;
     SteamVR_TrackedObject trackedObj;
     SteamVR_Controller.Device device;
-    FixedJoint fixedJoint;
-    public Transform spear;
+    public Transform weapon;
 
 	void Awake () {
         trackedObj = GetComponent<SteamVR_TrackedObject>();
@@ -18,32 +16,32 @@ public class PickupParent : MonoBehaviour {
 	void FixedUpdate () {
         device = SteamVR_Controller.Input((int)trackedObj.index);
 
-        if (device.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad))
+        if (weapon != null && device.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad))
         {
             Debug.Log("Resetting object");
-            spear.transform.position = device.transform.pos;
-            spear.GetComponent<Rigidbody>().velocity = Vector3.zero;
-            spear.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            weapon.transform.position = Vector3.zero;
+            weapon.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            weapon.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         }
 
     }
 
     void OnTriggerStay (Collider col)
     {
+        
         Debug.Log("You have collided with " + col.name + " and activated OnTriggerStay");
-        if (fixedJoint == null && device.GetTouch(SteamVR_Controller.ButtonMask.Trigger))
+        if (device.GetTouch(SteamVR_Controller.ButtonMask.Trigger) && !col.isTrigger)
         {
-            fixedJoint = col.gameObject.AddComponent<FixedJoint>();
-            fixedJoint.connectedBody = rigidBodyAttachPoint;
-            
+            Debug.Log("You have collided with " + col.name + " while holding down Touch");
+            col.attachedRigidbody.isKinematic = true;
+            col.gameObject.transform.SetParent(gameObject.transform);
+            weapon = col.attachedRigidbody.transform;
         }
-        else if (fixedJoint != null && device.GetTouchUp(SteamVR_Controller.ButtonMask.Trigger))
-        {
-            GameObject go = fixedJoint.gameObject;
-            Rigidbody rigidBody = go.GetComponent<Rigidbody>();
-            Destroy(fixedJoint);
-            fixedJoint = null;
-            tossObject(rigidBody);
+        else if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Trigger))
+        { 
+            col.gameObject.transform.SetParent(null);
+            col.attachedRigidbody.isKinematic = false;
+            tossObject(col.attachedRigidbody);
         }
     }
 

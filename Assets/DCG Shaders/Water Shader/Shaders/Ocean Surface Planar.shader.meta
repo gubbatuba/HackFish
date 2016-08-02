@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e0b596ff8f35120489717c9ae01e4a8a
+timeCreated: 1466548250
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _Normal: {fileID: 2800000, guid: 60977704998116b4dbd3350b7b9c4bae, type: 3}
+  - _Foam: {fileID: 2800000, guid: 4569f84b7d2064c48ad37bc2748ca835, type: 3}
+  - _DisplacementMask: {fileID: 2800000, guid: 306f7b8087773cb42a665b9c5eeff8f1, type: 3}
+  - _DisplacementTile: {fileID: 2800000, guid: 1494fa713d330b84b9ce081df7b5c0c0, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
