@@ -19,7 +19,7 @@ public class PickupParent : MonoBehaviour {
         if (weapon != null && device.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad))
         {
             Debug.Log("Resetting object");
-            weapon.transform.position = device.transform.pos;
+            weapon.transform.position = Vector3.zero;
             weapon.GetComponent<Rigidbody>().velocity = Vector3.zero;
             weapon.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         }
