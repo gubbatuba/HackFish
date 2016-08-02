@@ -1,0 +1,593 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Wet_Lens
+  m_Shader: {fileID: 4800000, guid: 484ffe2bb380d564abe2fb4337009536, type: 3}
+  m_ShaderKeywords: _INVERSEWAVES_ON _USEDISPWAVES_ON _USEFAKEREFLECTION_ON _USERADIALMASK_ON
+    _USEREFLECTION_ON
+  m_LightmapFlags: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Displacement
+      second:
+        m_Texture: {fileID: 2800000, guid: 77631be9fde1502449409a785cd40831, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DisplacementMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 77631be9fde1502449409a785cd40831, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DisplacementTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 77631be9fde1502449409a785cd40831, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DisplacementWaves
+      second:
+        m_Texture: {fileID: 2800000, guid: 1494fa713d330b84b9ce081df7b5c0c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DisplacementWavesMask
+      second:
+        m_Texture: {fileID: 2800000, guid: 306f7b8087773cb42a665b9c5eeff8f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Distortion
+      second:
+        m_Texture: {fileID: 2800000, guid: e7c61ec611431b54cb72c4b179fe6789, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FakeReflection
+      second:
+        m_Texture: {fileID: 8900000, guid: cb6423272b9355b4daa2c58f3bd66a40, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Foam
+      second:
+        m_Texture: {fileID: 2800000, guid: 009fda13b82fc2d4bbd161e04c6c8dfe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FoamTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 4569f84b7d2064c48ad37bc2748ca835, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MaskWavesDisplacement
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normal
+      second:
+        m_Texture: {fileID: 2800000, guid: 9ba004cdaee42234ba17973d3c07db36, type: 3}
+        m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalDistortion
+      second:
+        m_Texture: {fileID: 2800000, guid: 111ab2e7458314242b6078f4f4486ace, type: 3}
+        m_Scale: {x: -1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NormalTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 60977704998116b4dbd3350b7b9c4bae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflectionTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WaveA
+      second:
+        m_Texture: {fileID: 2800000, guid: a0c55168c4eb26646a6bd97b7c8e4da0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WaveB
+      second:
+        m_Texture: {fileID: 2800000, guid: a0c55168c4eb26646a6bd97b7c8e4da0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WaveMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WavesDisplacement
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WavesMask
+      second:
+        m_Texture: {fileID: 2800000, guid: a4996dfd265554b40a7b0d1e42a4b937, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WavesTexture
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_1274
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_1849
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_3004
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_4966
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_739
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_7674
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8476
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8570
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_8717
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_905
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AmbientLightContribution
+      second: 0.01
+    - first:
+        name: _BeachOpacity
+      second: 0.6
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _ColorIntensity
+      second: 0
+    - first:
+        name: _Contrast
+      second: 0
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DX11Displacement
+      second: 0
+    - first:
+        name: _Density
+      second: 0
+    - first:
+        name: _DepthBlend
+      second: 0.041
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DispMaskIntensity
+      second: 0.888
+    - first:
+        name: _DispWavesAmount
+      second: 0.042
+    - first:
+        name: _DispWavesFoamIntensity
+      second: 0.275
+    - first:
+        name: _DispWavesIntensity
+      second: 0.122
+    - first:
+        name: _DispWavesSpeed
+      second: 0.316
+    - first:
+        name: _DisplacementDirection
+      second: 0.5
+    - first:
+        name: _DisplacementFoamIntensity
+      second: 0.05
+    - first:
+        name: _DisplacementFrecuency
+      second: 0.6787091
+    - first:
+        name: _DisplacementIntensity
+      second: 0.5
+    - first:
+        name: _DisplacementPower
+      second: 1
+    - first:
+        name: _DisplacementScale
+      second: 0.128
+    - first:
+        name: _DisplacementSize
+      second: 0.03
+    - first:
+        name: _DisplacementSpeed
+      second: 1.07
+    - first:
+        name: _DisplacementWavesSpeed
+      second: 1.91
+    - first:
+        name: _DistortionIntensity
+      second: 0
+    - first:
+        name: _DistortionScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _FadeLevel
+      second: 6
+    - first:
+        name: _FoamDepth
+      second: 0
+    - first:
+        name: _FoamDisntance
+      second: 0.04
+    - first:
+        name: _FoamDistance
+      second: 0.176
+    - first:
+        name: _FoamIntensity
+      second: 1
+    - first:
+        name: _FoamScale
+      second: 1.21
+    - first:
+        name: _FoamShore
+      second: 0.02
+    - first:
+        name: _FoamSize
+      second: 0.35
+    - first:
+        name: _FoamSpeed
+      second: 2.2
+    - first:
+        name: _Fresnel
+      second: 0
+    - first:
+        name: _FresnelSaturation
+      second: 1
+    - first:
+        name: _Gloss
+      second: 0.534
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _Intensity
+      second: 0.126
+    - first:
+        name: _InverseDirection
+      second: 0
+    - first:
+        name: _InverseWaves
+      second: 1
+    - first:
+        name: _MaskIntensity
+      second: 0.177
+    - first:
+        name: _MaskPower
+      second: 0.9246519
+    - first:
+        name: _MaskRotation
+      second: 0
+    - first:
+        name: _MaskScale
+      second: 0.23
+    - first:
+        name: _MaskSpeed
+      second: 1
+    - first:
+        name: _MaskedWaves
+      second: -0.0312102
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _NormalIntensity
+      second: 0.744
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Opacity
+      second: 0
+    - first:
+        name: _OverallOpacity
+      second: 0.95
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _RadialWaves
+      second: 0
+    - first:
+        name: _ReflectionDistortion
+      second: 0
+    - first:
+        name: _ReflectionFresnel
+      second: 3
+    - first:
+        name: _ReflectionIntensity
+      second: 0.875
+    - first:
+        name: _RefractionAmount
+      second: 0.579
+    - first:
+        name: _RefractionDistortion
+      second: 0
+    - first:
+        name: _RefractionIntensity
+      second: 0.41
+    - first:
+        name: _RefractionPower
+      second: 0
+    - first:
+        name: _ScaleFade
+      second: 0.11
+    - first:
+        name: _ShoreBlend
+      second: 0.15
+    - first:
+        name: _ShoreFoam
+      second: 1
+    - first:
+        name: _ShoreFoamDistance
+      second: 1
+    - first:
+        name: _ShoreFoamIntensity
+      second: 2
+    - first:
+        name: _ShoreLineOpacity
+      second: 0.25
+    - first:
+        name: _ShoreOpacity
+      second: 0.05
+    - first:
+        name: _ShoreWaterOpacity
+      second: 0.15
+    - first:
+        name: _Shoreopacity
+      second: 15
+    - first:
+        name: _ShowWaves
+      second: 0
+    - first:
+        name: _Specular
+      second: 5
+    - first:
+        name: _Speed
+      second: 0
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _TesselationLevel
+      second: 8
+    - first:
+        name: _TessellationLevel
+      second: 16
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _UnderWaterDensity
+      second: 3
+    - first:
+        name: _UseAdditionalWaves
+      second: 0
+    - first:
+        name: _UseDepth
+      second: 0
+    - first:
+        name: _UseDispWaves
+      second: 1
+    - first:
+        name: _UseDisplacement
+      second: 1
+    - first:
+        name: _UseFakeReflection
+      second: 1
+    - first:
+        name: _UseMask
+      second: 0
+    - first:
+        name: _UseRadialMask
+      second: 1
+    - first:
+        name: _UseReflection
+      second: 1
+    - first:
+        name: _WaterDensity
+      second: 15
+    - first:
+        name: _WaterLevelPosition
+      second: 0
+    - first:
+        name: _WaveFoam
+      second: 1
+    - first:
+        name: _WaveScale
+      second: 64
+    - first:
+        name: _WaveScaleA
+      second: 0
+    - first:
+        name: _WaveScaleB
+      second: 0
+    - first:
+        name: _WaveSpeed
+      second: 0.205
+    - first:
+        name: _WavesAmount
+      second: 0
+    - first:
+        name: _WavesDisplacementFoamIntensity
+      second: 0.1
+    - first:
+        name: _WavesDisplacementSpeed
+      second: 0
+    - first:
+        name: _WavesFoam
+      second: 0.1
+    - first:
+        name: _WavesFresnel
+      second: 0.685
+    - first:
+        name: _WavesIntensity
+      second: 0.7
+    - first:
+        name: _WavesScale
+      second: 0.115
+    - first:
+        name: _WavesSpeed
+      second: 0.644
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _foamIntensity
+      second: 1
+    - first:
+        name: _node_7333
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.05422794, g: 0.35528642, b: 0.43382353, a: 1}
+    - first:
+        name: _DeepColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _ReflectionColor
+      second: {r: 0.46420848, g: 0.62585145, b: 0.7794118, a: 1}
+    - first:
+        name: _ShallowColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _WaterColor
+      second: {r: 0, g: 0.4601992, b: 0.55147594, a: 1}
