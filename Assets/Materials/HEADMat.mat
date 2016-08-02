@@ -90,7 +90,7 @@ Material:
       second: 0
     - first:
         name: _GlossMapScale
-      second: 1
+      second: 0.57
     - first:
         name: _Glossiness
       second: 0.5
@@ -108,7 +108,7 @@ Material:
       second: 1
     - first:
         name: _Parallax
-      second: 0.02
+      second: 0.012
     - first:
         name: _SmoothnessTextureChannel
       second: 0
