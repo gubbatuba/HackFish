@@ -11,7 +11,7 @@ public class spawnFish : MonoBehaviour {
     public int maximumSize = 50;
     public float normalSpeed = 50f;
 
-    private int numFish;
+    protected int numFish;
 
 	// Use this for initialization
 	void Start ()
@@ -35,5 +35,12 @@ public class spawnFish : MonoBehaviour {
             speedAgent = fishInstance.GetComponent<NavMeshAgent>();
             speedAgent.speed = normalSpeed / Mathf.Sqrt(newFishSize);
         }
+    }
+
+    public static int Caught(GameObject fish)
+    {
+        Destroy(fish);
+        //numFish = numFish - 1;
+        return 0;
     }
 }

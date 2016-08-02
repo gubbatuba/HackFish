@@ -1,0 +1,367 @@
+fileFormatVersion: 2
+guid: 0971a2e8a8572f04dafca39f88f60517
+timeCreated: 1470177704
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Character
+    100002: Dorsal_Fin_01_con_
+    100004: Dorsal_Fin_01_con__2
+    100006: Dorsal_Fin_01_con__3
+    100008: Dorsal_Fin_01_jnt
+    100010: Dorsal_Fin_02_jnt
+    100012: Dorsal_Fin_03_jnt
+    100014: Dorsal_Fin_04_jnt
+    100016: Dorsal_Fin_null
+    100018: Fish_rig
+    100020: FK_Spine_01_con_
+    100022: FK_Spine_01_jnt
+    100024: FK_Spine_02_jnt
+    100026: FK_Spine_02con_
+    100028: FK_Spine_03_con_
+    100030: FK_Spine_03_jnt
+    100032: FK_Spine_04_con_
+    100034: FK_Spine_04_jnt
+    100036: FK_Spine_05_con_
+    100038: FK_Spine_05_jnt
+    100040: FK_Spine_06_con_
+    100042: FK_Spine_06_jnt
+    100044: FK_Spine_07_con_
+    100046: FK_Spine_07_jnt
+    100048: FK_Spine_08_con_
+    100050: FK_Spine_08_jnt
+    100052: FK_Spine_09_jnt
+    100054: FK_Tail_00_con_
+    100056: FK_Tail_01_con_
+    100058: FK_Tail_02_con_
+    100060: FK_Tail_05_con_
+    100062: FK_Tail_06_con_
+    100064: FK_Tail_07_con_
+    100066: FK_Tail_con_
+    100068: FK_Tail_con__1
+    100070: FK_Tail_con__2
+    100072: FK_Tail_con__3
+    100074: FK_Tail_con__4
+    100076: Head_con_
+    100078: Head_con__1
+    100080: Head_con__2
+    100082: Head_con__3
+    100084: Head_con__4
+    100086: Head_Static_null
+    100088: Main_FK_con_
+    100090: Master_con_
+    100092: Null
+    100094: ref_001_ref_greatwhiteshark
+    100096: ref_001_ref_greatwhiteshark_eye
+    100098: ref_001_ref_greatwhiteshark_teet
+    100100: //RootNode
+    100102: Spine_FK_null
+    100104: Static_Head_01_jnt
+    100106: Static_Head_02_jnt
+    100108: Tail_Base_05_jnt
+    100110: Tail_Base_06_jnt
+    100112: Tail_Base_07_jnt
+    100114: Tail_Base_08_jnt
+    100116: Tail_Base_null
+    100118: Tail_FK_null
+    100120: Tail_Top_01_jnt
+    100122: Tail_Top_02_jnt
+    100124: Tail_Top_03_jnt
+    100126: Tail_Top_04_jnt
+    100128: Tail_Top_null
+    400000: Character
+    400002: Dorsal_Fin_01_con_
+    400004: Dorsal_Fin_01_con__2
+    400006: Dorsal_Fin_01_con__3
+    400008: Dorsal_Fin_01_jnt
+    400010: Dorsal_Fin_02_jnt
+    400012: Dorsal_Fin_03_jnt
+    400014: Dorsal_Fin_04_jnt
+    400016: Dorsal_Fin_null
+    400018: Fish_rig
+    400020: FK_Spine_01_con_
+    400022: FK_Spine_01_jnt
+    400024: FK_Spine_02_jnt
+    400026: FK_Spine_02con_
+    400028: FK_Spine_03_con_
+    400030: FK_Spine_03_jnt
+    400032: FK_Spine_04_con_
+    400034: FK_Spine_04_jnt
+    400036: FK_Spine_05_con_
+    400038: FK_Spine_05_jnt
+    400040: FK_Spine_06_con_
+    400042: FK_Spine_06_jnt
+    400044: FK_Spine_07_con_
+    400046: FK_Spine_07_jnt
+    400048: FK_Spine_08_con_
+    400050: FK_Spine_08_jnt
+    400052: FK_Spine_09_jnt
+    400054: FK_Tail_00_con_
+    400056: FK_Tail_01_con_
+    400058: FK_Tail_02_con_
+    400060: FK_Tail_05_con_
+    400062: FK_Tail_06_con_
+    400064: FK_Tail_07_con_
+    400066: FK_Tail_con_
+    400068: FK_Tail_con__1
+    400070: FK_Tail_con__2
+    400072: FK_Tail_con__3
+    400074: FK_Tail_con__4
+    400076: Head_con_
+    400078: Head_con__1
+    400080: Head_con__2
+    400082: Head_con__3
+    400084: Head_con__4
+    400086: Head_Static_null
+    400088: Main_FK_con_
+    400090: Master_con_
+    400092: Null
+    400094: ref_001_ref_greatwhiteshark
+    400096: ref_001_ref_greatwhiteshark_eye
+    400098: ref_001_ref_greatwhiteshark_teet
+    400100: //RootNode
+    400102: Spine_FK_null
+    400104: Static_Head_01_jnt
+    400106: Static_Head_02_jnt
+    400108: Tail_Base_05_jnt
+    400110: Tail_Base_06_jnt
+    400112: Tail_Base_07_jnt
+    400114: Tail_Base_08_jnt
+    400116: Tail_Base_null
+    400118: Tail_FK_null
+    400120: Tail_Top_01_jnt
+    400122: Tail_Top_02_jnt
+    400124: Tail_Top_03_jnt
+    400126: Tail_Top_04_jnt
+    400128: Tail_Top_null
+    4300000: ref_001_ref_greatwhiteshark
+    4300002: ref_001_ref_greatwhiteshark_eye
+    4300004: ref_001_ref_greatwhiteshark_teet
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    13700000: ref_001_ref_greatwhiteshark
+    13700002: ref_001_ref_greatwhiteshark_eye
+    13700004: ref_001_ref_greatwhiteshark_teet
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Fish_rig
+        weight: 1
+      - path: Character/Fish_rig/Master_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Dorsal_Fin_01_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Dorsal_Fin_01_con_/Dorsal_Fin_01_con__2
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Dorsal_Fin_01_con_/Dorsal_Fin_01_con__2/Dorsal_Fin_01_con__3
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_/FK_Tail_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_/FK_Tail_con_/FK_Tail_00_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_/FK_Tail_con_/FK_Tail_00_con_/FK_Tail_01_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_/FK_Tail_con_/FK_Tail_00_con_/FK_Tail_01_con_/FK_Tail_02_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_/FK_Tail_con_/FK_Tail_05_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_/FK_Tail_con_/FK_Tail_05_con_/FK_Tail_06_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_/FK_Tail_con_/FK_Tail_05_con_/FK_Tail_06_con_/FK_Tail_07_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_/FK_Tail_con_/FK_Tail_con__1
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_/FK_Tail_con_/FK_Tail_con__2
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_/FK_Tail_con_/FK_Tail_con__3
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_/FK_Tail_con_/FK_Tail_con__4
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Head_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Head_con_/Head_con__1
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Head_con_/Head_con__2
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Head_con_/Head_con__3
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Head_con_/Head_con__4
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/Dorsal_Fin_null
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/Dorsal_Fin_null/Dorsal_Fin_01_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/Dorsal_Fin_null/Dorsal_Fin_01_jnt/Dorsal_Fin_02_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/Dorsal_Fin_null/Dorsal_Fin_01_jnt/Dorsal_Fin_02_jnt/Dorsal_Fin_03_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/Dorsal_Fin_null/Dorsal_Fin_01_jnt/Dorsal_Fin_02_jnt/Dorsal_Fin_03_jnt/Dorsal_Fin_04_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt/Tail_FK_null
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt/Tail_FK_null/Tail_Base_null
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt/Tail_FK_null/Tail_Base_null/Tail_Base_05_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt/Tail_FK_null/Tail_Base_null/Tail_Base_05_jnt/Tail_Base_06_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt/Tail_FK_null/Tail_Base_null/Tail_Base_05_jnt/Tail_Base_06_jnt/Tail_Base_07_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt/Tail_FK_null/Tail_Base_null/Tail_Base_05_jnt/Tail_Base_06_jnt/Tail_Base_07_jnt/Tail_Base_08_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt/Tail_FK_null/Tail_Top_null
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt/Tail_FK_null/Tail_Top_null/Tail_Top_01_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt/Tail_FK_null/Tail_Top_null/Tail_Top_01_jnt/Tail_Top_02_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt/Tail_FK_null/Tail_Top_null/Tail_Top_01_jnt/Tail_Top_02_jnt/Tail_Top_03_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt/Tail_FK_null/Tail_Top_null/Tail_Top_01_jnt/Tail_Top_02_jnt/Tail_Top_03_jnt/Tail_Top_04_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/Head_Static_null
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/Head_Static_null/Static_Head_01_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/Head_Static_null/Static_Head_01_jnt/Static_Head_02_jnt
+        weight: 1
+      - path: Null
+        weight: 1
+      - path: Null/ref_001_ref_greatwhiteshark
+        weight: 1
+      - path: Null/ref_001_ref_greatwhiteshark_eye
+        weight: 1
+      - path: Null/ref_001_ref_greatwhiteshark_teet
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
