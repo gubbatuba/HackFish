@@ -308,7 +308,7 @@ Material:
       second: 0
     - first:
         name: _Density
-      second: 0.333
+      second: 0.1
     - first:
         name: _Depth
       second: 20
@@ -356,7 +356,7 @@ Material:
       second: 0.03
     - first:
         name: _DisplacementSpeed
-      second: 0
+      second: -0
     - first:
         name: _DisplacementWavesSpeed
       second: 1.91
@@ -365,7 +365,7 @@ Material:
       second: 0
     - first:
         name: _FadeLevel
-      second: 3
+      second: 0.35
     - first:
         name: _FoamDepth
       second: 0
@@ -374,13 +374,13 @@ Material:
       second: 0.04
     - first:
         name: _FoamDistance
-      second: 0.25
+      second: 0.83
     - first:
         name: _FoamIntensity
-      second: 1
+      second: 0.13
     - first:
         name: _FoamScale
-      second: 1
+      second: 2.12
     - first:
         name: _FoamShore
       second: 0.02
@@ -392,7 +392,7 @@ Material:
       second: 3
     - first:
         name: _FoamWavesIntensity
-      second: 0
+      second: 2.8
     - first:
         name: _Fresnel
       second: 2
@@ -416,7 +416,7 @@ Material:
       second: 1
     - first:
         name: _MaskIntensity
-      second: 1
+      second: 0
     - first:
         name: _MaskPower
       second: 0.9246519
@@ -440,7 +440,7 @@ Material:
       second: 0
     - first:
         name: _NormalIntensity
-      second: 0.25
+      second: 0.32
     - first:
         name: _OcclusionStrength
       second: 1
@@ -467,7 +467,7 @@ Material:
       second: 0.769
     - first:
         name: _ReflectionPower
-      second: 0.89
+      second: 0.55
     - first:
         name: _RefractionAmount
       second: 0.579
@@ -482,7 +482,7 @@ Material:
       second: 0
     - first:
         name: _Scale
-      second: 0.1
+      second: 0.05
     - first:
         name: _ScaleFade
       second: 0.11
@@ -569,7 +569,7 @@ Material:
       second: 1
     - first:
         name: _WaterSpeed
-      second: 0.66
+      second: 0.3
     - first:
         name: _WaveFoam
       second: 1
