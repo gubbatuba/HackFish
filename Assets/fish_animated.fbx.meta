@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: dddcd68b1e2c4f84a942ae0cb411bc7e
+timeCreated: 1470240611
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Character
+    100002: //RootNode
+    100004: Fish_rig
+    100006: FK_Spine_01_con_
+    100008: FK_Spine_01_jnt
+    100010: FK_Spine_02_jnt
+    100012: FK_Spine_02con_
+    100014: FK_Spine_03_con_
+    100016: FK_Spine_03_jnt
+    100018: FK_Spine_04_con_
+    100020: FK_Spine_04_jnt
+    100022: FK_Spine_05_con_
+    100024: FK_Spine_05_jnt
+    100026: FK_Spine_06_con_
+    100028: FK_Spine_06_jnt
+    100030: FK_Spine_07_con_
+    100032: FK_Spine_07_jnt
+    100034: FK_Spine_08_con_
+    100036: FK_Spine_08_jnt
+    100038: FK_Spine_09_jnt
+    100040: Group2
+    100042: Group3
+    100044: Group4
+    100046: Head_con_
+    100048: Head_con__1
+    100050: Head_con__2
+    100052: Head_con__3
+    100054: Head_con__4
+    100056: Head_Static_null
+    100058: Main_FK_con_
+    100060: Master_con_
+    100062: Null
+    100064: Spine_FK_null
+    100066: Static_Head_01_jnt
+    100068: Static_Head_02_jnt
+    400000: Character
+    400002: //RootNode
+    400004: Fish_rig
+    400006: FK_Spine_01_con_
+    400008: FK_Spine_01_jnt
+    400010: FK_Spine_02_jnt
+    400012: FK_Spine_02con_
+    400014: FK_Spine_03_con_
+    400016: FK_Spine_03_jnt
+    400018: FK_Spine_04_con_
+    400020: FK_Spine_04_jnt
+    400022: FK_Spine_05_con_
+    400024: FK_Spine_05_jnt
+    400026: FK_Spine_06_con_
+    400028: FK_Spine_06_jnt
+    400030: FK_Spine_07_con_
+    400032: FK_Spine_07_jnt
+    400034: FK_Spine_08_con_
+    400036: FK_Spine_08_jnt
+    400038: FK_Spine_09_jnt
+    400040: Group2
+    400042: Group3
+    400044: Group4
+    400046: Head_con_
+    400048: Head_con__1
+    400050: Head_con__2
+    400052: Head_con__3
+    400054: Head_con__4
+    400056: Head_Static_null
+    400058: Main_FK_con_
+    400060: Master_con_
+    400062: Null
+    400064: Spine_FK_null
+    400066: Static_Head_01_jnt
+    400068: Static_Head_02_jnt
+    4300000: Group4
+    4300002: Group3
+    4300004: Group2
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    13700000: Group2
+    13700002: Group3
+    13700004: Group4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Fish_rig
+        weight: 1
+      - path: Character/Fish_rig/Master_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/FK_Spine_01_con_/FK_Spine_02con_/FK_Spine_03_con_/FK_Spine_04_con_/FK_Spine_05_con_/FK_Spine_06_con_/FK_Spine_07_con_/FK_Spine_08_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Head_con_
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Head_con_/Head_con__1
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Head_con_/Head_con__2
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Head_con_/Head_con__3
+        weight: 1
+      - path: Character/Fish_rig/Master_con_/Main_FK_con_/Head_con_/Head_con__4
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/FK_Spine_01_jnt/FK_Spine_02_jnt/FK_Spine_03_jnt/FK_Spine_04_jnt/FK_Spine_05_jnt/FK_Spine_06_jnt/FK_Spine_07_jnt/FK_Spine_08_jnt/FK_Spine_09_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/Head_Static_null
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/Head_Static_null/Static_Head_01_jnt
+        weight: 1
+      - path: Character/Fish_rig/Spine_FK_null/Head_Static_null/Static_Head_01_jnt/Static_Head_02_jnt
+        weight: 1
+      - path: Null
+        weight: 1
+      - path: Null/Group2
+        weight: 1
+      - path: Null/Group3
+        weight: 1
+      - path: Null/Group4
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
