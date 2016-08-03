@@ -4,10 +4,11 @@ using System.Collections;
 
 public class stabFish: MonoBehaviour {
 
-    // Use this for initialization
-    void Start()
-    {
 
+    Animator anim;
+    void Awake()
+    {
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -16,14 +17,16 @@ public class stabFish: MonoBehaviour {
 
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider col)
     {
-        if (other.gameObject.CompareTag("SpearHead"))
+        if (col.gameObject.CompareTag("SpearHead"))
         {
             spawnFish.numFish = spawnFish.numFish - 1;
             Debug.Log("Fish count = " + spawnFish.numFish);
             spawnFish.score += 1;
-            Destroy(gameObject);
+            gameObject.transform.SetParent(col.gameObject.transform);
+            anim.SetTrigger("FishDead");
+            Destroy(gameObject, 4.5f);
         }
     }
 }
