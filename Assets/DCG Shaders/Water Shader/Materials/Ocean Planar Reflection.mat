@@ -476,7 +476,7 @@ Material:
       second: 0
     - first:
         name: _RefractionIntensity
-      second: 0.123
+      second: 0.1
     - first:
         name: _RefractionPower
       second: 0
