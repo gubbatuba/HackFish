@@ -12,19 +12,20 @@ public class spawnFish : MonoBehaviour {
     public int maximumSize = 50;
     public float normalSpeed = 50f;
     public Text scoreText;
-
+    public static int score;
     public static int numFish;
 
 	// Use this for initialization
 	void Start ()
     {
         numFish = 0;
+        score = 0;
         InvokeRepeating("Spawn", spawnTime, spawnTime);
 	}
 
     void FixedUpdate()
     {
-        scoreText.text ="Fish Left: " + numFish.ToString();
+        scoreText.text ="Score: " + score.ToString();
     }
     void Spawn()
     {

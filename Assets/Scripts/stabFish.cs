@@ -22,6 +22,7 @@ public class stabFish: MonoBehaviour {
         {
             spawnFish.numFish = spawnFish.numFish - 1;
             Debug.Log("Fish count = " + spawnFish.numFish);
+            spawnFish.score += 1;
             Destroy(gameObject);
         }
     }
