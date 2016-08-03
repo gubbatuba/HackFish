@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class stabFish: MonoBehaviour {
@@ -10,18 +11,18 @@ public class stabFish: MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
     }
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("spearhead hit fish");
-        if (other.gameObject.CompareTag("Fish"))
+        if (other.gameObject.CompareTag("SpearHead"))
         {
-            Destroy(other);
             spawnFish.numFish = spawnFish.numFish - 1;
+            Debug.Log("Fish count = " + spawnFish.numFish);
+            Destroy(gameObject);
         }
     }
 }

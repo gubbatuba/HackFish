@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bobble
   - Fish
+  - SpearHead
   layers:
   - Default
   - TransparentFX

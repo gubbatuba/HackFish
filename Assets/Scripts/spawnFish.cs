@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class spawnFish : MonoBehaviour {
@@ -10,6 +11,7 @@ public class spawnFish : MonoBehaviour {
     public int minimumSize = 1;
     public int maximumSize = 50;
     public float normalSpeed = 50f;
+    public Text scoreText;
 
     public static int numFish;
 
@@ -20,6 +22,10 @@ public class spawnFish : MonoBehaviour {
         InvokeRepeating("Spawn", spawnTime, spawnTime);
 	}
 
+    void FixedUpdate()
+    {
+        scoreText.text ="Fish Left: " + numFish.ToString();
+    }
     void Spawn()
     {
         if (numFish < maxFish)
