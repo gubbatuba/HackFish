@@ -440,7 +440,7 @@ Material:
       second: 0
     - first:
         name: _NormalIntensity
-      second: 0.32
+      second: 0.17
     - first:
         name: _OcclusionStrength
       second: 1
@@ -476,7 +476,7 @@ Material:
       second: 0
     - first:
         name: _RefractionIntensity
-      second: 0.204
+      second: 0.123
     - first:
         name: _RefractionPower
       second: 0
@@ -566,10 +566,10 @@ Material:
       second: 3
     - first:
         name: _WaterOpacity
-      second: 1
+      second: 0.924
     - first:
         name: _WaterSpeed
-      second: 0.3
+      second: 0.18
     - first:
         name: _WaveFoam
       second: 1
