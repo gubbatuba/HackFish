@@ -15,11 +15,12 @@ public class NewBehaviourScript : MonoBehaviour {
 
     }
 
-    //void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.gameObject.CompareTag("Fish"))
-    //    {
-    //        spawnFish.Caught(other);
-    //    }
-    //}
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Fish"))
+        {
+            Destroy(other);
+            spawnFish.numFish = spawnFish.numFish - 1;
+        }
+    }
 }

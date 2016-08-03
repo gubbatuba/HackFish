@@ -11,7 +11,7 @@ public class spawnFish : MonoBehaviour {
     public int maximumSize = 50;
     public float normalSpeed = 50f;
 
-    protected int numFish;
+    public static int numFish;
 
 	// Use this for initialization
 	void Start ()
@@ -37,10 +37,9 @@ public class spawnFish : MonoBehaviour {
         }
     }
 
-    public static int Caught(GameObject fish)
+    void Caught(GameObject fish)
     {
         Destroy(fish);
-        //numFish = numFish - 1;
-        return 0;
+        numFish = numFish - 1;
     }
 }
