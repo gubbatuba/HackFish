@@ -19,7 +19,7 @@ public class PickupParent : MonoBehaviour {
         if (weapon != null && device.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad))
         {
             Debug.Log("Resetting object");
-            weapon.transform.position = new Vector3((float)-0.4, (float)2.97, 0);
+            weapon.transform.position = new Vector3((float)-0.4, (float)2.97, (float) 0);
             weapon.GetComponent<Rigidbody>().velocity = Vector3.zero;
             weapon.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         }
@@ -37,7 +37,7 @@ public class PickupParent : MonoBehaviour {
             col.gameObject.transform.SetParent(gameObject.transform);
             weapon = col.attachedRigidbody.transform;
         }
-        else if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Trigger))
+        if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Trigger))
         { 
             col.gameObject.transform.SetParent(null);
             col.attachedRigidbody.isKinematic = false;
@@ -48,15 +48,15 @@ public class PickupParent : MonoBehaviour {
     void tossObject(Rigidbody rigidBody)
     {
         Transform origin = trackedObj.origin ? trackedObj.origin : trackedObj.transform.parent;
-        if (origin!=null)
-        {
-            rigidBody.velocity = origin.TransformVector(device.angularVelocity);
-            rigidBody.angularVelocity = origin.TransformVector(device.angularVelocity);
-        }
-        else
-        {
-            rigidBody.velocity = device.velocity;
-            rigidBody.angularVelocity = device.angularVelocity;
-        }
+        //if (origin!=null)
+        //{
+        //    rigidBody.velocity = origin.TransformVector(device.angularVelocity);
+        //    rigidBody.angularVelocity = origin.TransformVector(device.angularVelocity);
+        //}
+        //else
+        //{
+        rigidBody.velocity = device.velocity * 2;
+        rigidBody.angularVelocity = device.angularVelocity;
+        //}
     }
 }

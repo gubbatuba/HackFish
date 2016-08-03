@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class stabFish: MonoBehaviour {
 
     // Use this for initialization
     void Start()
@@ -17,6 +17,7 @@ public class NewBehaviourScript : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log("spearhead hit fish");
         if (other.gameObject.CompareTag("Fish"))
         {
             Destroy(other);
