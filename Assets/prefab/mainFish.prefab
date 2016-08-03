@@ -270,6 +270,7 @@ GameObject:
   - 54: {fileID: 54000013538619288}
   - 195: {fileID: 195000011802512248}
   - 65: {fileID: 65000012362200542}
+  - 114: {fileID: 114000013896665178}
   m_Layer: 0
   m_Name: mainFish
   m_TagString: Untagged
@@ -1235,7 +1236,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 152404}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e83e9f0ae4d31f46b5956097b52ffee, type: 3}
   m_Name: 
@@ -1251,6 +1252,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecd33ffe9153a3348a57d0f877ec743a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114000013896665178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a3f08e78e382849a9d6e85835cdc41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swimRadius: 7
 --- !u!195 &195000011802512248
 NavMeshAgent:
   m_ObjectHideFlags: 1
