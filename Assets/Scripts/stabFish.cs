@@ -30,7 +30,7 @@ public class stabFish: MonoBehaviour {
             spawnFish.score += 1;
             Destroy(navm);
             Destroy(fishBody);
-            gameObject.transform.SetParent(col.gameObject.transform);
+            gameObject.transform.SetParent(col.gameObject.transform.parent.transform);
             anim.SetTrigger("FishDead");
             Destroy(gameObject, 4.5f);
         }
