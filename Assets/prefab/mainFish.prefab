@@ -271,6 +271,7 @@ GameObject:
   - 195: {fileID: 195000011802512248}
   - 65: {fileID: 65000012362200542}
   - 114: {fileID: 114000013896665178}
+  - 136: {fileID: 136000011003192946}
   m_Layer: 0
   m_Name: mainFish
   m_TagString: Untagged
@@ -1226,7 +1227,7 @@ BoxCollider:
   m_GameObject: {fileID: 152404}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.08, y: 0.15, z: 0.45}
   m_Center: {x: 0, y: 0.05, z: -0.12}
@@ -1264,6 +1265,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swimRadius: 7
+--- !u!136 &136000011003192946
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152404}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.05
+  m_Height: 0.485878
+  m_Direction: 2
+  m_Center: {x: -0.02, y: 0.05, z: -0.09}
 --- !u!195 &195000011802512248
 NavMeshAgent:
   m_ObjectHideFlags: 1
