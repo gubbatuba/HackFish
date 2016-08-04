@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 994eeba6ea63f0e47b8a4c8bfc1c8e33
+timeCreated: 1470265854
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Backbones_null
+    100002: Bird_rig
+    100004: Bott_null
+    100006: Character
+    100008: L_Humerus_jnt
+    100010: L_Phalanges_Digit_00_jnt
+    100012: L_Phalanges_Digit_01_jnt
+    100014: L_Phalanges_Digit_02_jnt
+    100016: L_Phalanges_Digit_03_jnt
+    100018: L_Radius_Ulna_jnt
+    100020: L_Wing_con_
+    100022: L_Wing_con__1
+    100024: L_Wing_con__2
+    100026: L_Wing_con__3
+    100028: L_Wing_goal
+    100030: L_Wing_pole
+    100032: L_Wrist_jnt
+    100034: L_Wrist_null
+    100036: Master_con_
+    100038: Object04
+    100040: R_Humerus_jnt
+    100042: R_Phalanges_Digit_00_jnt
+    100044: R_Phalanges_Digit_01_jnt
+    100046: R_Phalanges_Digit_02_jnt
+    100048: R_Phalanges_Digit_03_jnt
+    100050: R_Radius_Ulna_jnt
+    100052: R_Wing_con_
+    100054: R_Wing_con__1
+    100056: R_Wing_con__2
+    100058: R_Wing_con__3
+    100060: R_Wing_goal
+    100062: R_Wing_pole
+    100064: R_Wrist_jnt
+    100066: R_Wrist_null
+    100068: Root_con_
+    100070: Root_null_jnt
+    100072: //RootNode
+    100074: Spine_bott_00_jnt
+    100076: Spine_bott_01_jnt
+    100078: Spine_top_00_jnt
+    100080: Spine_top_01_jnt
+    100082: Subdivision_Surface
+    100084: Top_null
+    100086: Wing
+    100088: Wing_2
+    400000: Backbones_null
+    400002: Bird_rig
+    400004: Bott_null
+    400006: Character
+    400008: L_Humerus_jnt
+    400010: L_Phalanges_Digit_00_jnt
+    400012: L_Phalanges_Digit_01_jnt
+    400014: L_Phalanges_Digit_02_jnt
+    400016: L_Phalanges_Digit_03_jnt
+    400018: L_Radius_Ulna_jnt
+    400020: L_Wing_con_
+    400022: L_Wing_con__1
+    400024: L_Wing_con__2
+    400026: L_Wing_con__3
+    400028: L_Wing_goal
+    400030: L_Wing_pole
+    400032: L_Wrist_jnt
+    400034: L_Wrist_null
+    400036: Master_con_
+    400038: Object04
+    400040: R_Humerus_jnt
+    400042: R_Phalanges_Digit_00_jnt
+    400044: R_Phalanges_Digit_01_jnt
+    400046: R_Phalanges_Digit_02_jnt
+    400048: R_Phalanges_Digit_03_jnt
+    400050: R_Radius_Ulna_jnt
+    400052: R_Wing_con_
+    400054: R_Wing_con__1
+    400056: R_Wing_con__2
+    400058: R_Wing_con__3
+    400060: R_Wing_goal
+    400062: R_Wing_pole
+    400064: R_Wrist_jnt
+    400066: R_Wrist_null
+    400068: Root_con_
+    400070: Root_null_jnt
+    400072: //RootNode
+    400074: Spine_bott_00_jnt
+    400076: Spine_bott_01_jnt
+    400078: Spine_top_00_jnt
+    400080: Spine_top_01_jnt
+    400082: Subdivision_Surface
+    400084: Top_null
+    400086: Wing
+    400088: Wing_2
+    4300000: Object04
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    13700000: Object04
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 47
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Bird_rig
+        weight: 1
+      - path: Character/Bird_rig/Master_con_
+        weight: 1
+      - path: Character/Bird_rig/Master_con_/L_Wing_con_
+        weight: 1
+      - path: Character/Bird_rig/Master_con_/L_Wing_con_/L_Wing_con__1
+        weight: 1
+      - path: Character/Bird_rig/Master_con_/L_Wing_con_/L_Wing_con__2
+        weight: 1
+      - path: Character/Bird_rig/Master_con_/L_Wing_con_/L_Wing_con__3
+        weight: 1
+      - path: Character/Bird_rig/Master_con_/L_Wing_con_/L_Wing_goal
+        weight: 1
+      - path: Character/Bird_rig/Master_con_/R_Wing_con_
+        weight: 1
+      - path: Character/Bird_rig/Master_con_/R_Wing_con_/R_Wing_con__1
+        weight: 1
+      - path: Character/Bird_rig/Master_con_/R_Wing_con_/R_Wing_con__2
+        weight: 1
+      - path: Character/Bird_rig/Master_con_/R_Wing_con_/R_Wing_con__3
+        weight: 1
+      - path: Character/Bird_rig/Master_con_/R_Wing_con_/R_Wing_goal
+        weight: 1
+      - path: Character/Bird_rig/Master_con_/Root_con_
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Bott_null
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Bott_null/Spine_bott_00_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Bott_null/Spine_bott_00_jnt/Spine_bott_01_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Top_null
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Top_null/Spine_top_00_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Top_null/Spine_top_00_jnt/Spine_top_01_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing/L_Humerus_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing/L_Humerus_jnt/L_Radius_Ulna_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing/L_Humerus_jnt/L_Radius_Ulna_jnt/L_Wrist_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing/L_Humerus_jnt/L_Radius_Ulna_jnt/L_Wrist_jnt/L_Wrist_null
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing/L_Humerus_jnt/L_Radius_Ulna_jnt/L_Wrist_jnt/L_Wrist_null/L_Phalanges_Digit_00_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing/L_Humerus_jnt/L_Radius_Ulna_jnt/L_Wrist_jnt/L_Wrist_null/L_Phalanges_Digit_00_jnt/L_Phalanges_Digit_01_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing/L_Humerus_jnt/L_Radius_Ulna_jnt/L_Wrist_jnt/L_Wrist_null/L_Phalanges_Digit_00_jnt/L_Phalanges_Digit_01_jnt/L_Phalanges_Digit_02_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing/L_Humerus_jnt/L_Radius_Ulna_jnt/L_Wrist_jnt/L_Wrist_null/L_Phalanges_Digit_00_jnt/L_Phalanges_Digit_01_jnt/L_Phalanges_Digit_02_jnt/L_Phalanges_Digit_03_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing/L_Wing_pole
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing_2
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing_2/R_Humerus_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing_2/R_Humerus_jnt/R_Radius_Ulna_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing_2/R_Humerus_jnt/R_Radius_Ulna_jnt/R_Wrist_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing_2/R_Humerus_jnt/R_Radius_Ulna_jnt/R_Wrist_jnt/R_Wrist_null
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing_2/R_Humerus_jnt/R_Radius_Ulna_jnt/R_Wrist_jnt/R_Wrist_null/R_Phalanges_Digit_00_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing_2/R_Humerus_jnt/R_Radius_Ulna_jnt/R_Wrist_jnt/R_Wrist_null/R_Phalanges_Digit_00_jnt/R_Phalanges_Digit_01_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing_2/R_Humerus_jnt/R_Radius_Ulna_jnt/R_Wrist_jnt/R_Wrist_null/R_Phalanges_Digit_00_jnt/R_Phalanges_Digit_01_jnt/R_Phalanges_Digit_02_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing_2/R_Humerus_jnt/R_Radius_Ulna_jnt/R_Wrist_jnt/R_Wrist_null/R_Phalanges_Digit_00_jnt/R_Phalanges_Digit_01_jnt/R_Phalanges_Digit_02_jnt/R_Phalanges_Digit_03_jnt
+        weight: 1
+      - path: Character/Bird_rig/Root_null_jnt/Backbones_null/Wing_2/R_Wing_pole
+        weight: 1
+      - path: Subdivision_Surface
+        weight: 1
+      - path: Subdivision_Surface/Object04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 47
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
