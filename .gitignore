@@ -3,13 +3,18 @@
 # =============== #
 Temp/
 Library/
-Assets/Editor
-Assets/NatureStarterKit2
-Assets/SampleScenes
-Assets/skyb1
-Assets/Standard\ Assets
-Assets/SteamVR
-Assets/TheLabRenderer
+
+Assets/
+# Assets/Editor
+# Assets/NatureStarterKit2 
+# Assets/SampleScenes
+# Assets/skyb1
+# Assets/Standard\ Assets
+# Assets/SteamVR
+# Assets/TheLabRenderer
+# Assets/DCG\ Shaders
+# Assets/Materials
+
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
